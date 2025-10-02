@@ -6,7 +6,6 @@ const sumAll = function(num1, num2) {
   let newArr = [...Array(size).keys().map(i => i + min)];
 
   return newArr.reduce((total, num) => total + num, 0);
-
 };
 
 // Do not edit below this line
